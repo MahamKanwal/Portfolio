@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Maham Kanwal | Profolio</title>
-    <link rel="stylesheet" href="output.css" />
+    <title>Maham Kanwal | Portfolio</title>
+    <!-- <link rel="stylesheet" href="output.css" /> -->
     <link rel="stylesheet" href="style.css" />
     <link rel="shortcut icon" href="images/profolio.png" type="image/x-icon">
     <!-- font-awesome via cdn -->
@@ -15,6 +15,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
   </head>
   <body>
     <!-- bg-[#1A0A2E] -->
@@ -22,22 +26,27 @@
     <header
       class="flex justify-between items-center py-5 px-[10vw] max-sm:hidden bg-[#1A0A2E] text-white"
     >
-      <h3 class="text-xl font-bold">Maham Kanwal</h3>
+      <h2 class="text-2xl font-bold">Maham <span class="bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent">Kanwal</span></h2>
       <!-- menu -->
       <ul class="flex gap-6">
-        <li><a href="#home" class="hover:text-pink-400">Home</a></li>
-        <li><a href="#about" class="hover:text-pink-400">About</a></li>
-        <li><a href="#skills" class="hover:text-pink-400">Skills</a></li>
-        <li><a href="#projects" class="hover:text-pink-400">Projects</a></li>
-        <li><a href="#contact" class="hover:text-pink-400">Contact</a></li>
+        <li><a href="#home" class="hover:bg-gradient-to-r hover:from-purple-500 hover:to-pink-500 
+          hover:bg-clip-text hover:text-transparent transition duration-300">Home</a></li>
+        <li><a href="#about" class="hover:bg-gradient-to-r hover:from-purple-500 hover:to-pink-500 
+          hover:bg-clip-text hover:text-transparent transition duration-300">About</a></li>
+        <li><a href="#skills" class="hover:bg-gradient-to-r hover:from-purple-500 hover:to-pink-500 
+          hover:bg-clip-text hover:text-transparent transition duration-300">Skills</a></li>
+        <li><a href="#projects" class="hover:bg-gradient-to-r hover:from-purple-500 hover:to-pink-500 
+          hover:bg-clip-text hover:text-transparent transition duration-300">Projects</a></li>
+        <li><a href="#contact" class="hover:bg-gradient-to-r hover:from-purple-500 hover:to-pink-500 
+          hover:bg-clip-text hover:text-transparent transition duration-300">Contact</a></li>
       </ul>
     </header>
 
     <!-- small devices header -->
     <header
-      class="flex justify-between flex-wrap pt-5 px-[10vw] sm:hidden text-white bg-[#1A0A2E]"
+      class="flex justify-between flex-wrap pt-5 px-[10vw] sm:hidden bg-[#1A0A2E] text-white"
     >
-      <h3 class="text-xl font-bold">Maham Kanwal</h3>
+      <h2 class="text-2xl font-bold">Maham <span class="bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent">Kanwal</span></h2>
       <!-- toggle button -->
       <button id="barBtn" class="text-2xl">
         <i class="fa-solid fa-bars"></i>
@@ -47,34 +56,37 @@
         id="menu"
         class="flex flex-col w-full gap-4 mt-5 h-0 overflow-hidden duration-300"
       >
-        <li><a href="#home" class="hover:text-pink-400">Home</a></li>
-        <li><a href="#about" class="hover:text-pink-400">About</a></li>
-        <li><a href="#skills" class="hover:text-pink-400">Skills</a></li>
-        <li><a href="#projects" class="hover:text-pink-400">Projects</a></li>
-        <li><a href="#contact" class="hover:text-pink-400">Contact</a></li>
-      </ul>
+        <li><a href="#home" class="hover:bg-gradient-to-r hover:from-purple-500 hover:to-pink-500 
+          hover:bg-clip-text hover:text-transparent transition duration-300">Home</a></li>
+        <li><a href="#about" class="hover:bg-gradient-to-r hover:from-purple-500 hover:to-pink-500 
+          hover:bg-clip-text hover:text-transparent transition duration-300">About</a></li>
+        <li><a href="#skills" class="hover:bg-gradient-to-r hover:from-purple-500 hover:to-pink-500 
+          hover:bg-clip-text hover:text-transparent transition duration-300">Skills</a></li>
+        <li><a href="#projects" class="hover:bg-gradient-to-r hover:from-purple-500 hover:to-pink-500 
+          hover:bg-clip-text hover:text-transparent transition duration-300">Projects</a></li>
+        <li><a href="#contact" class="hover:bg-gradient-to-r hover:from-purple-500 hover:to-pink-500 
+          hover:bg-clip-text hover:text-transparent transition duration-300">Contact</a></li>
     </header>
 
 <!-- hero section -->
-<div class="flex items-center px-[10vw] mx-10">
-    <div class="max-w-md space-y-5">
-  <h2 class="font-bold text-[4vw] leading-none">Hi!</h2>
- <p class="">
-  I’m <span class="font-bold">Maham Kanwal</span>, a passionate 
-  <span class="text-pink-400 font-semibold">Full Stack Web Developer</span> from Karachi.
-</p>
-<p>
-  I love building <span class="text-purple-400 font-medium">modern, responsive, user-friendly web applications</span> 
-  using the <span class="font-semibold">latest web technologies</span>.
-</p>
-<p>
-  My focus is on creating <span class="text-blue-400 font-medium">clean UI</span>, 
-  <span class="text-green-400 font-medium">smooth user experiences</span>, 
-  and <span class="text-yellow-400 font-medium">efficient backend systems</span>.
-</p>
-
-    </div>
+<div class="flex items-center justify-center px-6 sm:px-[10vw] py-16 bg-slate-50
+">
+  <div class="max-w-lg space-y-6 text-center">
+     <h1 class="font-bold text-4xl sm:text-5xl animate__animated animate__bounceInLeft ">Hi!  I'm <span class="bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent font-bold">Maham Kanwal,</span></h1> 
+    <p class="text-lg leading-relaxed">
+      a web developer from Karachi learning modern web technologies and 
+      building user-friendly websites<span class="bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent font-bold">
+      user-friendly websites.
+      </span>
+    </p>
+    <button class="inline-block sm:w-auto border rounded-lg bg-gradient-to-r from-pink-500 to-purple-500 text-white px-6 py-3 font-medium text-lg">
+    <a href="#projects">
+      View My Work
+    </a>
+</button>
+  </div>
 </div>
+
 
 
 
