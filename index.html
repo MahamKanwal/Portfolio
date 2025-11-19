@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Maham Kanwal | Portfolio</title>
-    <!-- <link rel="stylesheet" href="output.css" /> -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="output.css" />
+    <!-- <link rel="stylesheet" href="style.css" /> -->
     <link rel="shortcut icon" href="images/profolio.png" type="image/x-icon">
     <!-- font-awesome via cdn -->
     <link
@@ -15,13 +15,14 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- animate css cdn -->
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
+
   </head>
   <body>
-    <!-- bg-[#1A0A2E] -->
     <!-- header   -->
     <header
       class="flex justify-between items-center py-5 px-[10vw] max-sm:hidden bg-[#1A0A2E] text-white"
@@ -69,7 +70,7 @@
     </header>
 
 <!-- hero section -->
-<section class="flex items-center justify-center px-6 sm:px-[10vw] py-16 bg-slate-50
+<section class="flex items-center justify-center px-6 sm:px-[10vw] py-16 bg-slate-100
 " id="home">
   <div class="max-w-lg space-y-6 text-center">
      <h1 class="font-bold text-4xl sm:text-5xl animate__animated animate__bounceInLeft ">Hi!  I'm <span class="bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent font-bold">Maham Kanwal,</span></h1> 
@@ -87,10 +88,10 @@
   </div>
 </section>
 
-<!-- about section-->
+<!-- about-->
 <section id="about" class="py-16 px-6 sm:px-[10vw]">
   <div class="max-w-3xl mx-auto text-center space-y-5">
-    <h2 class="font-bold text-3xl sm:text-4xl animate__animated animate__rubberBand">
+    <h2 class="font-bold text-3xl sm:text-4xl">
       About Me
     </h2>
     <p class="text-base sm:text-lg text-gray-700">
@@ -120,9 +121,9 @@
 </section>
 
 <!-- skills -->
-<section id="skills" class="py-16 px-6 sm:px-[10vw] bg-slate-50">
+<section id="skills" class="py-16 px-6 sm:px-[10vw] bg-gradient-to-r from-pink-500 to-purple-500">
 <div class="max-w-3xl mx-auto text-center space-y-5">
-    <h2 class="font-bold text-3xl sm:text-4xl animate__animated animate__heartBeat">
+    <h2 class="font-bold text-3xl sm:text-4xl">
       Skills
     </h2>
     <!-- Frontend  -->
@@ -184,6 +185,69 @@
 </section>
 
 <!-- projects -->
+  <section id="projects" class="py-20 px-6 bg-[#1A0A2E] text-white text-center">
+  <h2 class="text-3xl font-bold">Projects</h2>
+  <div class="flex flex-wrap justify-center gap-8 mt-10">
+    <div class="p-6 rounded-lg max-w-[300px] hover:-translate-y-2 transition-transform duration-300 hover:translate-y-2 bg-gradient-to-r from-pink-500 to-purple-500">
+      <h3 class="text-xl font-bold mb-3">Image Gallery</h3>
+      <p class="mb-4">A stylish image gallery highlighting my frontend development skills.</p>
+      <a href="https://mahamkanwal.github.io/CodeAplha_ImageGallery/" 
+         class="bg-white text-purple-700 px-5 py-2 rounded-md font-medium hover:bg-purple-100 transition">
+         View Project
+      </a>
+    </div>
+   <div class="p-6 rounded-lg max-w-[300px] hover:-translate-y-2 transition-transform duration-300 hover:translate-y-2 bg-gradient-to-r from-pink-500 to-purple-500">
+      <h3 class="text-xl font-bold mb-3">Calculator</h3>
+      <p class="mb-4">Functional calculator using HTML, CSS & JS.</p>
+      <a href="https://mahamkanwal.github.io/CodeAplha_Calculator/" 
+         class="bg-white text-purple-700 px-5 py-2 rounded-md font-medium hover:bg-purple-100 transition">
+         View Project
+      </a>
+    </div>
+    <div class="p-6 rounded-lg max-w-[300px] hover:-translate-y-2 transition-transform duration-300 hover:translate-y-2 bg-gradient-to-r from-pink-500 to-purple-500">
+      <h3 class="text-xl font-bold mb-3">Quiz App</h3>
+      <p class="mb-4">Interactive quiz app using web technologies.</p>
+      <a href="https://mahamkanwal.github.io/QuizMaster-Pro/" 
+         class="bg-white text-purple-700 px-5 py-2 rounded-md font-medium hover:bg-purple-100 transition">
+         View Project
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer id="contact" class="py-8 px-8 text-center text-white bg-gradient-to-r from-pink-500 to-purple-500">
+  <h2 class="text-3xl font-bold mb-6">Contact Me</h2>
+
+  <div class="flex flex-wrap justify-center gap-8 mt-4">
+    <div>
+      <h3 class="mb-2 text-xl font-semibold">Email</h3>
+      <p>
+        <a href="mailto:kanwalmahsm@gmail.com" class="hover:underline">
+          kanwalmahsm@gmail.com
+        </a>
+      </p>
+    </div>
+
+    <div>
+      <h3 class="mb-2 text-xl font-semibold">Phone</h3>
+      <p>+92-300-XXXXXXX</p>
+    </div>
+
+    <div>
+      <h3 class="mb-2 text-xl font-semibold">Location</h3>
+      <p>Karachi, Sindh, Pakistan</p>
+    </div>
+  </div>
+
+  <div class="mt-8 flex justify-center items-center gap-6">
+    <a href="https://www.linkedin.com/in/maham-kanwal-958545298/" class="flex items-center gap-2 hover:underline">
+      <i class="fab fa-linkedin text-xl"></i> LinkedIn
+    </a>
+    <a href="https://github.com/MahamKanwal" class="flex items-center gap-2 hover:underline">
+      <i class="fab fa-github text-xl"></i> GitHub
+    </a>
+  </div>
+</footer>
 
     <script src="app.js"></script>
   </body>
