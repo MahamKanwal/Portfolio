@@ -1,6 +1,6 @@
 import React from "react";
 import { Button } from "antd";
-
+import img from "../assests/girl.jpg";
 const Home = () => {
   return (
     <section
@@ -37,7 +37,7 @@ const Home = () => {
       <div className="w-full md:w-1/2 flex justify-center mb-10 md:mb-0">
         <div className="p-2 rounded-full bg-gradient-to-r from-purple-500 to-purple-600">
           <img
-            src="frontend/src/assests/girl.jpg"
+            src={img}
             alt="Profile"
             className="w-72 h-72 sm:w-80 sm:h-80 object-cover rounded-full border-4 border-[#1a0b2e] shadow-2xl"
           />
